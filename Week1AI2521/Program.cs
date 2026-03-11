@@ -103,13 +103,23 @@ using Week1AI2521;
 
 
 
-Author a1 = new Author("John Green",50, "American");
+//Author a1 = new Author("John Green",50, "American");
 
-Console.WriteLine($"Author name : {a1.name}");
-Console.WriteLine($"Author age : {a1.age}");
-Console.WriteLine($"Author nationality : {a1.nationality}");
+//Console.WriteLine($"Author name : {a1.name}");
+//Console.WriteLine($"Author age : {a1.age}");
+//Console.WriteLine($"Author nationality : {a1.nationality}");
 
-Book b1 = new Book("The Fault in Our Stars", 123456, a1);
+//Book b1 = new Book("The Fault in Our Stars", 123456, a1);
 
 
-Console.WriteLine(b1.bookAuthor.name);
+//Console.WriteLine(b1.bookAuthor.name);
+
+Customer c1 = new Customer("Musharraf", 25, false);
+Customer c2 = new Customer("Ali", 20, true);
+Customer c3 = new Customer("Sara", 17, false);
+
+BankAccount b1 = new BankAccount("123456789", 1000, c1);
+BankAccount b2 = new BankAccount("987654321", 1500, c2);
+BankAccount b3 = new BankAccount("456789123", 700, c3);
+
+b3.Withdraw(800);

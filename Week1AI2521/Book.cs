@@ -9,13 +9,13 @@ namespace Week1AI2521
     internal class Book
     {
         public string title;
-        public int ISBN;
+        public int isbn;
         public Author bookAuthor;
 
-        public Book(string title, int iSBN, Author bookAuthor)
+        public Book(string title, int isbn, Author bookAuthor)
         {
             this.title = title;
-            ISBN = iSBN;
+            this.isbn = isbn;
             this.bookAuthor = bookAuthor;
         }
     }
