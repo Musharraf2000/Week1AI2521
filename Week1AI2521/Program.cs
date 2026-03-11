@@ -108,3 +108,8 @@ Author a1 = new Author("John Green",50, "American");
 Console.WriteLine($"Author name : {a1.name}");
 Console.WriteLine($"Author age : {a1.age}");
 Console.WriteLine($"Author nationality : {a1.nationality}");
+
+Book b1 = new Book("The Fault in Our Stars", 123456, a1);
+
+
+Console.WriteLine(b1.bookAuthor.name);
