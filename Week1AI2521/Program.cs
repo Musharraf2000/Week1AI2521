@@ -84,14 +84,27 @@
 //Console.WriteLine($"Average : {sum / marks.Length}");
 
 
-List<int> numbers = new List<int>([1,2,3,5]);
+//List<int> numbers = new List<int>([1,2,3,5]);
 
-numbers.Add(6);
-numbers.Insert(3, 4);
-numbers.Remove(6);
-numbers.RemoveAt(1);
+//numbers.Add(6);
+//numbers.Insert(3, 4);
+//numbers.Remove(6);
+//numbers.RemoveAt(1);
 
-foreach (var number in numbers)
-{
-    Console.WriteLine(number);
-}
+//foreach (var number in numbers)
+//{
+//    Console.WriteLine(number);
+//}
+
+
+
+using Week1AI2521;
+
+
+
+
+Author a1 = new Author("John Green",50, "American");
+
+Console.WriteLine($"Author name : {a1.name}");
+Console.WriteLine($"Author age : {a1.age}");
+Console.WriteLine($"Author nationality : {a1.nationality}");
